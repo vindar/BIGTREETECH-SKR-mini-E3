@@ -1,0 +1,11 @@
+Initial setup.
+------------------------
+FAN1    : case fan
+FAN0    : part cooling fan
+E0-stop : filament runout 3 pin
+Z-probe : GND / +5V / PA1 connected (with PA1 connected to center yellow wire). GND and PC14 not connected.  
+Z-stop  : other 2 bl touch connector (black wire to GND and grey wire to PC2). 
+THB : thermistor bed
+TH0 : thermistor hotend
+
+-> extruder fan connected directly to power +24V. 
