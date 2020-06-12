@@ -36,11 +36,16 @@
 
 #define PS_ON_PIN                          PC13  // Power Supply Control
 
-#define FAN_PIN                            PC6
-#define FAN1_PIN                           PC7
-#ifndef CONTROLLER_FAN_PIN
-  #define CONTROLLER_FAN_PIN               FAN1_PIN
-#endif
+#define FAN_PIN                            PC6   // Part cooling fan
+
+#define FAN1_PIN                           PC7   // hotend fan
+
+#undef CONTROLLER_FAN_PIN
+//#ifndef CONTROLLER_FAN_PIN
+//  #define CONTROLLER_FAN_PIN               FAN1_PIN
+//#endif
+
+
 /**
  * TMC220x stepper drivers
  * Hardware serial communication ports.
